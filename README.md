@@ -41,20 +41,24 @@ MuscleHub est une application web full-stack de e-commerce spécialisée dans la
 ### Installation
 
 1. Cloner le repository
-git clone
+```bash
+git clone [URL_DU_REPO]
+```
 
-2. Installation des dépendances
-bash
-Frontend
+2. Installer les dépendances
+```bash
+# Frontend
 cd frontend
 npm install
-Backend
+
+# Backend
 cd backend
 npm install
+```
 
 3. Configuration
 - Créer un fichier `.env` dans le dossier backend
-- Contacter l'administrateur pour les variables d'environnement nécessaires
+- Ajouter les variables d'environnement nécessaires
 
 ### Démarrage
 
